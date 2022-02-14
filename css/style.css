@@ -4,23 +4,18 @@ HEADER
 -------------------------------------------------------
 */
 
-
-
-
 body{
-    height: 2000px; /* DEBUG!!!!!!!!!!!!!!!!!!!!! */
+    height: 2000px;
 }
 
-header{
+.header{
     background-color: black;
-    width: 100%;
-    position: fixed;
-    top: 0;
 }
 
 header img{
     width: 60px;
 }
+
 
 
 /*
@@ -29,17 +24,28 @@ NAV
 -------------------------------------------------------
 */
 
-
-nav{
-    border: 1px solid black;
-    width: 100%;
-}
-
-.navbar-collapse {
-    flex-grow: 0;
-}
-
 #nav-fixed-top{
-    position: fixed;
     top: 25px;
+    background-color: white;
+}
+
+.navbar-toggler{
+    border: 1px solid black;
+}
+
+
+/*
+-------------------------------------------------------
+MAIN
+-------------------------------------------------------
+*/
+
+.jumbotron{
+    margin-top: 100px;
+    height: 600px;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+    background-size: cover;
 }
