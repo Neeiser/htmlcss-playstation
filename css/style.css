@@ -5,7 +5,7 @@ HEADER
 */
 
 body{
-    height: 5000px;
+    height: 7000px;
 }
 
 header{
@@ -165,4 +165,23 @@ MAIN
 
 .explore .btn{
     border-radius: 2rem;
+}
+
+/* Main: PS Plus */
+
+.ps-plus{
+    background-color: #bebcbb;
+}
+
+.plus-container-left img{
+    width: 70%;
+}
+
+.plus-container-right img{
+    width: 100%;
+}
+
+.ps-plus .btn{
+    border-radius: 20px;
+    color: #0059ff;
 }
