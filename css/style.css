@@ -101,12 +101,17 @@ MAIN
     visibility: visible;
 }
 
+.devices-thumb span{
+    visibility: visible;
+}
+
 .thumb:hover {
     filter: opacity(100%);
     transition: 0.2s;
 }
 
 .thumb-overlay{
+    height: 100%;
     visibility: hidden;
     border-bottom: 3px solid #0059ff;
 }
