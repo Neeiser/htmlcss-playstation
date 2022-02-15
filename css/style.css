@@ -5,7 +5,7 @@ HEADER
 */
 
 body{
-    height: 2000px;
+    height: 5000px;
 }
 
 header{
@@ -42,7 +42,7 @@ MAIN
 
 /* Main: Jumbotron */
 
-.jumbotron{
+.jumbotron1{
     margin-top: 100px;
     height: 550px;
     background-image: url(../img/jumbo-bg.png);
@@ -53,33 +53,33 @@ MAIN
     align-items: flex-end;
 }
 
-.jumbotron img {
+.jumbotron1 img {
     width: 250px;
 }
 
-.jumbotron .btn{
+.jumbotron1 .btn{
     background-color: #cd3d0f;
     text-decoration: none;
     border-radius: 2rem;
 }
 
-.jumbotron .btn:active{
+.jumbotron1 .btn:active{
     filter: brightness(70%);
 }
 
 /* Main: Jumbotron-slides */
 
-.jumbotron-slides{
+.jumbotron1-slides{
     display: flex;
     justify-content: center;
 }
 
-.jumbotron-slides img{
+.jumbotron1-slides img{
     width: 100%;
     border-radius: 15px;
 }
 
-.jumbotron-slides img:hover{
+.jumbotron1-slides img:hover{
     border: 2px solid #0059ff;
     transform: translateY(-10px);
     transition: 0.1s;
@@ -118,4 +118,30 @@ MAIN
 
 .thumb-overlay:hover{
     visibility: visible;
+}
+
+/* Main: Jumbotron 2 */
+.jumbotron2{
+    margin-top: 100px;
+    height: 600px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.jumbotron2 img {
+    width: 250px;
+}
+
+.jumbotron2 .btn{
+    background-color: #cd3d0f;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+
+.jumbotron2 .btn:active{
+    filter: brightness(70%);
 }
