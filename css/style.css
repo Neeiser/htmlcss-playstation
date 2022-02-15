@@ -68,3 +68,19 @@ MAIN
 }
 
 /* Main: Jumbotron-slides */
+
+.jumbotron-slides{
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron-slides img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.jumbotron-slides img:hover{
+    border: 2px solid rgb(0, 89, 255);
+    transform: translateY(-10px);
+    transition: 0.1s;
+}
