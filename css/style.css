@@ -80,7 +80,7 @@ MAIN
 }
 
 .jumbotron-slides img:hover{
-    border: 2px solid rgb(0, 89, 255);
+    border: 2px solid #0059ff;
     transform: translateY(-10px);
     transition: 0.1s;
 }
@@ -93,4 +93,24 @@ MAIN
 
 .ps5-devices .device1{
     width: 100%;
+}
+
+.thumb {
+    width: 100%;
+    filter: opacity(70%);
+    visibility: visible;
+}
+
+.thumb:hover {
+    filter: opacity(100%);
+    transition: 0.2s;
+}
+
+.thumb-overlay{
+    visibility: hidden;
+    border-bottom: 3px solid #0059ff;
+}
+
+.thumb-overlay:hover{
+    visibility: visible;
 }
