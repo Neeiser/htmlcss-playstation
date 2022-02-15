@@ -158,3 +158,11 @@ MAIN
 }
 
 /* Main: Explore */
+
+.explore img{
+    width: 100%;
+}
+
+.explore .btn{
+    border-radius: 2rem;
+}
