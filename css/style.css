@@ -84,3 +84,13 @@ MAIN
     transform: translateY(-10px);
     transition: 0.1s;
 }
+
+/* Main: PS5 Devices */
+
+.ps5-devices .btn{
+    border-radius: 25px;
+}
+
+.ps5-devices .device1{
+    width: 100%;
+}
