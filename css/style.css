@@ -40,12 +40,29 @@ MAIN
 -------------------------------------------------------
 */
 
+/* Main: Jumbotron */
+
 .jumbotron{
     margin-top: 100px;
-    height: 600px;
+    height: 550px;
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: top;
     background-size: cover;
+    align-items: flex-end;
+}
+
+.jumbotron img {
+    width: 250px;
+}
+
+.jumbotron .btn{
+    background-color: #cd3d0f;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+
+.jumbotron .btn:active{
+    filter: brightness(70%);
 }
