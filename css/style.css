@@ -186,5 +186,13 @@ MAIN
     color: #0059ff;
 }
 
-/* Main: PS Plus */
+/* Main: Sales */
 
+.sales h2{
+    font-size: 1.2em;
+}
+
+
+.sales img{
+    width: 100%;
+}
