@@ -5,7 +5,7 @@ HEADER
 */
 
 body{
-    height: 7000px;
+    height: 9000px;
 }
 
 header{
@@ -216,5 +216,11 @@ MAIN
 }
 
 .now-container-right img{
+    width: 100%;
+}
+
+/* Main: Social */
+
+.social img{
     width: 100%;
 }
