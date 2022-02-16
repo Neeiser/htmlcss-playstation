@@ -196,3 +196,7 @@ MAIN
 .sales img{
     width: 100%;
 }
+
+.sales .row{
+    --bs-gutter-x: 0;
+}
