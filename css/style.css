@@ -200,3 +200,21 @@ MAIN
 .sales .row{
     --bs-gutter-x: 0;
 }
+
+/* Main: Now */
+
+.now{
+    background-color: #161c3b;
+}
+
+.now-container-left img{
+    width: 100%;
+}
+
+.now-container-left .btn{
+    border-radius: 20px;
+}
+
+.now-container-right img{
+    width: 100%;
+}
