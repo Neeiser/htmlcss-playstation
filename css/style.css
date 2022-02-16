@@ -4,10 +4,6 @@ HEADER
 -------------------------------------------------------
 */
 
-body{
-    height: 9000px;
-}
-
 header{
     background-color: black;
 }
@@ -250,5 +246,9 @@ footer{
 }
 
 .footer-bottom img{
-    
+    width: 150px;
+}
+
+.footer-bottom p{
+    font-size: 0.8em;
 }
