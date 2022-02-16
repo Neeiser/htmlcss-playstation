@@ -231,3 +231,24 @@ MAIN
 FOOTER
 -------------------------------------------------------
 */
+
+footer{
+    background-color: #00439c;
+}
+
+.footer-top img{
+    width: 100px;
+}
+
+#globe {
+    width: 20px;
+}
+
+.footer-top a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-bottom img{
+    
+}
