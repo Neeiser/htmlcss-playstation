@@ -84,6 +84,7 @@ MAIN
 
 .jumbotron1-slides img:hover{
     border: 2px solid #0059ff;
+    cursor: pointer;
     transform: translateY(-10px);
     transition: 0.1s;
 }
@@ -111,6 +112,7 @@ MAIN
 .thumb:hover {
     filter: opacity(100%);
     transition: 0.2s;
+    cursor: pointer;
 }
 
 .thumb-overlay{
@@ -154,6 +156,12 @@ MAIN
 .last-releases img{
     width: 100%;
     border-radius: 20px;
+}
+
+.last-releases img:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    cursor: pointer;
 }
 
 .last-releases h3{
@@ -226,6 +234,10 @@ MAIN
 
 .social img{
     width: 100%;
+}
+
+.social img:hover{
+    cursor: pointer;
 }
 
 
